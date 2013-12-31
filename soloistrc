@@ -18,6 +18,16 @@ recipes:
 - sprout-osx-git::git_projects
 - pivotal_workstation::git_config_global_defaults
 - sprout-osx-git::git_scripts
+- sprout-osx-apps::vagrant
+- sprout-osx-apps::vagrant_plugins
+- sprout-osx-apps::solr
+
+# development (android)
+- sprout-osx-apps::android_sdk
+
+# development (python)
+- sprout-osx-apps::python
+- sprout-osx-apps::python_path
 
 # development (rails)
 - sprout-osx-rbenv
@@ -56,22 +66,18 @@ recipes:
 
 - sprout-osx-apps::rubymine
 - sprout-osx-rubymine::preferences
+- sprout-osx-apps::sublime-text
 
 node_attributes:
-  git_pairs_domain: pivotallabs.com
+  git_pairs_domain: samsung.com
   git_pairs_authors:
-    - initials: ah
-      name: Abhijit Hiremagalur
-      shortname: abhi
-    - initials: bc
-      name: Brian Cunnie
-      shortname: cunnie
-    - initials: jrhb
-      name: Jonathan Barnes
-    - initials: lw
-      name: Luke Winikates
-      shortname: lwinikates
+    - initials: jam
+      name: Jeff Morgan
+      shortname: jam
+    - initials: js
+      name: John Schettino
+      shortname: jschett
   git_projects:
     -
       - sprout-wrap
-      - https://github.com/pivotal-sprout/sprout-wrap.git
+      - https://github.com/UXCAS/sprout-wrap.git

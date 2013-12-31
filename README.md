@@ -1,17 +1,11 @@
-# sprout-wrap
+# sprout-wrap (Samsung Style)
 
-[![Build Status](https://travis-ci.org/pivotal-sprout/sprout-wrap.png?branch=master)](https://travis-ci.org/pivotal-sprout/sprout-wrap)
 
 This project uses [soloist](https://github.com/mkocher/soloist) and [librarian-chef](https://github.com/applicationsonline/librarian-chef)
 to run a subset of the recipes in sprout's [cookbooks]((https://github.com/pivotal-sprout/sprout).
 
-[Fork it](https://github.com/pivotal-sprout/sprout-wrap/fork) to 
-customize its [attributes](http://docs.opscode.com/chef_overview_attributes.html) in [soloistrc](/soloistrc) and the list of recipes 
-you'd like to use for your team. You may also want to add other cookbooks to its [Cheffile](/Cheffile), perhaps one 
-of the many [community cookbooks](http://community.opscode.com/cookbooks). By default it configures an OS X 
-Mavericks workstation for Ruby development.
-
-Finally, if you've never used Chef before - we highly recommend you buy &amp; watch [this excellent 17 minute screencast](http://railscasts.com/episodes/339-chef-solo-basics) by Ryan Bates. 
+This is wrapper around a number of Cookbooks designed to configure a developer workstation. It should is mostly focused on setting up pairing stations
+and should be used with caution on personal machines as this will change settings.
 
 ## Installation under Mavericks (OS X 10.9)
 
@@ -24,6 +18,8 @@ Don't forget to start up Xcode once it's installed so that you can agree to the 
 ### 2. Install Command Line Tools
   
     xcode-select --install
+
+    Note this is not required on Mavericks
   
 ### 3. Clone this project
 

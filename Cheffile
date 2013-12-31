@@ -1,5 +1,8 @@
 site 'http://community.opscode.com/api/v1'
 
+cookbook 'dmg',
+  :path => 'site-cookbooks/dmg'
+
 cookbook 'meta',
   :path => 'site-cookbooks/meta'
 
