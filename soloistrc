@@ -66,7 +66,7 @@ recipes:
 
 - sprout-osx-apps::rubymine
 - sprout-osx-rubymine::preferences
-- sprout-osx-apps::sublime-text
+- sprout-osx-apps::sublime_text
 
 node_attributes:
   git_pairs_domain: samsung.com
