@@ -3,9 +3,8 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'dmg',
   :path => 'site-cookbooks/dmg'
 
-cookbook 'ark',
-  :path => 'git@github.com:opscode-cookbooks/ark.git'
-  :path => 'osx'
+cookbook 'ark,
+  :git => 'git@github.com:opscode-cookbooks/ark.git'
 
 cookbook 'meta',
   :path => 'site-cookbooks/meta'
