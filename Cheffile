@@ -4,7 +4,7 @@ cookbook 'dmg',
   :path => 'site-cookbooks/dmg'
 
 cookbook 'ark,
-  :git => 'git@github.com:opscode-cookbooks/ark.git'
+  :git => 'git://github.com/opscode-cookbooks/ark.git'
 
 cookbook 'meta',
   :path => 'site-cookbooks/meta'
