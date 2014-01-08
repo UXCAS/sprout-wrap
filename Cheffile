@@ -3,6 +3,10 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'dmg',
   :path => 'site-cookbooks/dmg'
 
+cookbook 'ark',
+  :path => 'git@github.com:opscode-cookbooks/ark.git'
+  :path => 'osx'
+
 cookbook 'meta',
   :path => 'site-cookbooks/meta'
 
@@ -41,3 +45,6 @@ cookbook 'osx',
 cookbook 'sprout-osx-rubymine',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-rubymine'
+
+cookbook 'adt',
+  :path => 'site-cookbooks/adt'

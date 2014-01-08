@@ -23,7 +23,7 @@ recipes:
 - sprout-osx-apps::solr
 
 # development (android)
-- sprout-osx-apps::android_sdk
+- adt::default
 
 # development (python)
 - sprout-osx-apps::python
